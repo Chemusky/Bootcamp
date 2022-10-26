@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- Enlaces externo -->
+  <a href="https://google.com">Ir a Google</a>
+
+  <!-- Enlaces interno -->
+  <a href="folder/blog.html">Ir al blog</a>
+
+  <!-- Línea en blanco -->
+  <br>
+  <a href="folder/blog.html">Ir al blog</a>
+
+  <!-- Línea separadora -->
+  <hr>
+
+  <!-- Títlos/Headings -->
+  <h1>Título 1</h1>
+  <h2>Título 2</h2>
+  <h3>Título 3</h3>
+  <h4>Título 4</h4>
+  <h5>Título 5</h5>
+  <h6>Título 6</h6>
+
+  <hr>
+
+  <!-- Textos / Párrafos / Paragraphs -->
+  <p>
+    Lorem ipsum, <b>dolor sit amet</b> consectetur adipisicing elit. Perspiciatis dolor recusandae animi ratione,
+    voluptates
+    itaque.<strong>Illumlabore inventore</strong> quia perspiciatis voluptates! Iste vitae provident optio eaque
+    officiis non expedita
+    quidem dolorem minus laborum, veniam architecto ipsa quae perferendis commodi aliquid iusto ratione! Quae atque amet
+    rem qui quasi voluptatem non!
+  </p>
+
+  <pre> Lorem ipsum, <b>dolor sit amet</b> consectetur adipisicing elit.  Perspiciatis dolor recusandae animi ratione, voluptates
+  itaque.<strong>Illumlabore inventore</strong> 
+  quia perspiciatis voluptates! Iste vitae provident optio eaque officiis non expedita
+  quidem <s>dolorem minus laborum,</s>  
+  veniam architecto <em> ipsa quae perferendis </em>        commodi aliquid iusto ratione! Quae atque amet
+  rem qui quasi voluptatem non!</pre>
+
+
+  <p>
+    <span class="ingredients">Lorem ipsum dolor sit amet consectetur,</span> <span class="ingredients">adipisicing
+      elit.</span> Ullam earum, quisquam ex dolorum aut recusandae modi
+    dicta ipsam eligendi magnam.
+  </p>
+
+  <p>
+    La fórmula del agua es H<sub>2</sub>O mientras que la del agua oxigenada o peróxido de hidrógeno (ambos conceptos
+    son válidos) es H<sub>2</sub>O<sub>2</sub> <br>
+    Por otro lado, la fórmula de la cafeína es C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub> y es la mólecula
+    preferida casi de cualquier desarrolador
+  </p>
+
+  <p>El teorema de <strong>pitágoras</strong> se conoce por la ecuación de:</p>
+  <p> <var>a</var><sup>2</sup> + <var>b</var><sup>2</sup> = <var>c</var><sup>2</sup>
+  </p>
+
+
+  <!-- La hora se engloba con la etiqueta time, referida al tiempo, que tiene un atributo que dice la hora que es. Se ha hecho de esta forma porque la hora de color blanco es lo que visualiza el usuario mientras que la parte del atrubuto es para todo aquel código que necesite la hora a nivel de programación, porque podré si lo deseo cambiarlos, sumarlos, etc. -->
+
+  <!-- En la etiqueta time, datetime es el atributo y lo escrito en naranja es su valor. Esto es para la parte de programación únicamente.-->
+  <p>Las clases del Bootcamp empiezan a las <time datetime="09:30">09:30</time></p>
+  <p>El primer día fue el <time datetime="2021-02-01">1 de febrero</time></p>
+
+
+  <br>
+  <hr><br>
+
+
+  <!-- Contenedores / Containers -->
+
+  <nav>
+    <a href="">Enlace1</a>
+    <a href="">Enlace2</a>
+    <a href="">Enlace3</a>
+  </nav>
+
+  <section>
+    <article>
+      <h1>Título del artículo</h1>
+      <p>Contenido del artículo</p>
+    </article>
+
+    <a href="">Leer más</a>
+
+  </section>
+
+  <!-- Lo de abajo se puede hacer así: section>article>h1{Título}+p{Lorem ipsum}  -->
+  <section>
+    <article>
+      <h1>Título</h1>
+      <p>Lorem ipsum</p>
+    </article>
+  </section>
+
+
+
+  <aside>
+    <p>Menu generalmente lateral</p>
+  </aside>
+
+  <footer>
+    <p>Pie de Página</p>
+    <address>
+      Málaga, 29007
+    </address>
+  </footer>
+
+  <!-- Al poner .Container, emmet me ha creado automaticamente lo de abajo-->
+  <div class="container">
+    <p>Contenedor Genérico para agrupar elementos</p>
+  </div>
+
+
+  <!-- Lista desordenada -->
+  <ul>
+    <li>Elemento 1</li>
+    <li>Elemento 2</li>
+    <li>Elemento 3</li>
+    <li>Elemento 4</li>
+    <li>Elemento 5</li>
+  </ul>
+
+  <!-- Lista ordenada -->
+  <ol start="500">
+    <li>Elemento</li>
+    <li>Elemento</li>
+    <li>Elemento</li>
+  </ol>
+
+  <ol>
+    <li>Elemento</li>
+    <li>Elemento
+      <ul>
+        <li>Caracter</li>
+        <li>Caracter</li>
+      </ul>
+    </li>
+    <li>Elemento</li>
+  </ol>
+
+  <br><br><br>
+
+
+  <!-- Tablas/Table -->
+  <table>
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Email</th>
+        <th>Edad</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>John Lennon</td>
+        <td>JL@email.es</td>
+        <td>35</td>
+      </tr>
+      <tr>
+        <td>Dave Mustaine</td>
+        <td>DM@abstemio.com</td>
+        <td>59</td>
+      </tr>
+      <tr>
+        <td>Euronymous</td>
+        <td>Euronymous@mayhem.es</td>
+        <td>RIP</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <th>Nombre</th>
+        <th>Email</th>
+        <th>Edad</th>
+      </tr>
+    </tfoot>
+  </table>
+
+  <br>
+  <hr><br>
+
+
+
+
+  <!-- Formularios / Forms -->
+
+  <form action="#" method="get">
+    <div class="inputBlock">
+      <label for="nameInput">Nombre: (*)</label> <br>
+      <input required type="text" id="nameInput" maxlength="10" name="userName" placeholder="Introduce tu nombre">
+    </div> <br>
+    
+    <div class="inputBlock">
+      <label for="lastNameInput">Apellidos:</label> <br>
+      <input type="text" id="lastNameInput" name="userName" placeholder="Introduce tus apellidos">
+    </div><br>
+    <!-- El input es el más importante y de forma manual se le añade un id (identificador) con un nombre único. Hay muchos tipos de input diferente, mas comun el de tipo texto-->
+  
+    <div class="inputBlock">
+      <label for="emailInput">Email: (*)</label> <br>
+      <input required type="email" id="emailInput" name="userEmail" placeholder="Introduce tu email">
+    </div><br>
+
+    <div class="inputBlock">
+      <label for="passwordInput">Contraseña:</label> <br>
+      <input type="password" id="passwordInput" name="passwordInput" placeholder="**********">
+    </div> <br>
+
+    <div class="inputBlock">
+      <label for="passwordInput">Contraseña:</label> <br>
+      <textarea name="messageInput" id="messageInput" cols="30" rows="10"></textarea>
+    </div> <br>
+    
+    <div class="inputBlock">
+      <label for="sex">Género:</label>
+      <select name="sexInput" id="sexInput">
+        <option value="" hidden></option>
+        <option value="Female">Femenino</option>
+        <option value="Male">Masculino</option>
+        <option value="other">Otro</option>
+      </select>
+    </div>
+    <br><br>
+    
+    <div class="inputBlock">
+      <label for="ageInput">Edad</label>
+      <input ide="ageInput" name="ageInput" type="number" value="42" min="0" max="120">
+      <label for="birthdayInput">Fecha de nacimiento</label>
+      <input type="date" id="birthdayInput" name="birthdayInput">
+    </div>
+
+    <br><br>
+    
+    <input type="submit" value="Guardar">
+  </form>
+
+
+
+
+
+
+
+  <br><br><br><br><br><br>
+</body>
+
+
+
+
+
+
+
+</html>
